@@ -1,4 +1,6 @@
-<head> <link rel="stylesheet" href="style.css"> </head>
+<head> 
+<?php include("fonts.php"); ?>       
+<link rel="stylesheet" href="style.css"> </head>
 <?php
 // include("HobbsResume2026.pdf")
 ?>
