@@ -10,7 +10,7 @@ main palette
     sage green #a7ad89 
 accent colors
     twilight indigo #23314A
-    rosy brown #E5C2BD
+    pink #E5C2BD
 
 
 

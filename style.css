@@ -15,7 +15,7 @@ body {
 }
 
 .container-main{
-    height: 85%;
+    height: 100%;
     background-color: #ECE3DF;
     border-radius: 5px;
     border: 1px solid #23314A;
@@ -127,17 +127,22 @@ body {
     border: 1px solid #23314A;
 
     color: #0A3323;
-    font-family: "Delius", "Arial";
+    font-family: "Delius Unicase", "Arial";
 }
 
 .footer {
     background-color: #a7ad89; 
     padding: 10px;
+    width: 100%;
     position: fixed;
     left: 0;
     bottom: 0;
-    width: 100%;
     height: 5%;
+    color: #0A3323;
+    font-family: "Delius Unicase", "Arial";
+    margin-top: auto;
+
+
     display: flex;
     justify-content: center;
     align-items: center;
