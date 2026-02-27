@@ -6,7 +6,7 @@
 
 <?php
 include("header.php");
-include("footer.php");
+// include("footer.php");
 ?>
 <div class="container-main">
 
@@ -17,9 +17,10 @@ include("footer.php");
 
 </div>
 
-<div class="column-50">
+<div class="fixed-size">
+    <img src="https://c8.alamy.com/comp/B3XXFY/schnauzer-dog-headshot-on-white-background-B3XXFY.jpg" alt="Picture">
 
-<h1>Picture</h1>
+<!-- <h1>Picture</h1> -->
 
 </div>
 
