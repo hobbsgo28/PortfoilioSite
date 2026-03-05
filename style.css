@@ -59,6 +59,7 @@ body {
     border-radius: 5px;
     box-sizing: border-box; 
     align-items: center;
+    flex-direction: column;
     /* flex-direction: row; */
 }
 
@@ -118,7 +119,17 @@ img {
     border-radius: 5px;
     box-sizing: border-box; 
     align-items: center;
-    flex-direction: row;
+    flex-direction: column;
+
+}
+li{
+    font-size: large;
+}
+
+dl{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 
