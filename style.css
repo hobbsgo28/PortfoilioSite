@@ -5,7 +5,7 @@ body {
     background-attachment: fixed;
     background-color: #ECE3DF;
     flex: 1;
-    padding-bottom: 5%;
+    /* padding-bottom: 5%; */
         
     color: #0A3323;
     font-family: "Delius", "Arial" ;
@@ -161,22 +161,27 @@ img {
     font-family: "Delius Unicase", "Arial";
 }
 
-.footer {
+footer {
     background-color: #a7ad89; 
-    padding: 10px;
+    /* padding: 10px; */
     width: 100%;
-    position: fixed;
+    position: relative;
     left: 0;
     bottom: 0;
-    height: 5%;
+    height: 10%;
     color: #0A3323;
     font-family: "Delius Unicase", "Arial";
     margin-top: auto;
-
 
     display: flex;
     justify-content: center;
     align-items: center;
     border: 1px solid #23314A;
     border-radius: 5px;
+
 }
+/*
+.footer{
+    position: fixed;
+    bottom: 0;
+} */

@@ -18,7 +18,7 @@ include("header.php");
 </div>
 
 <div class="fixed-size">
-    <img src="https://c8.alamy.com/comp/B3XXFY/schnauzer-dog-headshot-on-white-background-B3XXFY.jpg" alt="Picture">
+    <img src="headshot2026.webp" alt="Picture">
 
 <!-- <h1>Picture</h1> -->
 
@@ -60,10 +60,11 @@ include("header.php");
 
 
 
+</body>
+
 <?php
-// include("footer.php");
+include("footer.php");
 ?>
 
-</body>
 
 
