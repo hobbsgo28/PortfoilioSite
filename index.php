@@ -1,6 +1,6 @@
 <head> 
-<?php include("fonts.php"); ?>   
-<link rel="stylesheet" href="style.css"> 
+    <?php include("fonts.php"); ?>   
+    <link rel="stylesheet" href="style.css"> 
 </head>
 <body>
 
@@ -10,11 +10,10 @@ include("header.php");
 ?>
 <div class="container-main">
 
-
 <div class="column-50">
 
 <h1> Grace Hobbs </h1>
-<p> As a computer science student, I have developed skills in Java, Python, and assembly language. 
+    <p> As a computer science student, I have developed skills in Java, Python, and MIPS assembly language. 
     Currently, I am preparing for the A+ Core 1 and Core 2 certification, which is broadening my 
     understanding of computer hardware, operating systems, and IT support. My practical experience in 
     the VMI Cyber Defense Lab also provides me with valuable real-world expertise that I am eager to 
@@ -28,15 +27,13 @@ include("header.php");
 <div class="fixed-size">
     <img src="headshot2026.webp" alt="Picture">
 
-<!-- <h1>Picture</h1> -->
-
 </div>
 
 </div>
 
 <div class="container-horz">
     <div class="column-40">
-        <h1>Visual Element</h1>
+        <img src="placidplace-matrix-17974_512.gif" alt="Visual Element">
     </div>
 
 <div class="column-60">
@@ -55,7 +52,7 @@ include("header.php");
 
 <div class="container-horz">
     <div class="column-60">
-        <h1>Experience</h1>
+        <h1>Professional Experience</h1>
             <dl>
                 <dt><h3>DoD SMC Cyber Institute at Virginia Military Institute, Lexington, Virginia</h3></dt>
                 <dd>October 2025 - Present</dd>
@@ -64,8 +61,7 @@ include("header.php");
             </dl>
     </div>
     <div class="column-40">
-        <h1>Visual Element</h1>
-
+        <img src="dakernet-target-6601_256.gif" alt="Visual Element">
     </div>
 </div>
 
@@ -76,12 +72,19 @@ include("header.php");
     </div>
     <div class="column-60">
         <h1>Education</h1>
+            <dl>
+                <dt><h3>Virginia Military Institute, Lexington, Virginia</h3></dt>
+                <dd>2024 - 2028</dd>
+                <dd>Bachelor's of Science in Computer Science<dd>
+            </dl>
+            <dl>
+                <dt><h3>Piedmont Virginia Community College, Charlottesville, Virginia</h3></dt>
+                <dd>2022 - 2024</dd>
+                <dd>Associate's of Science in General Studies<dd>
+            </dl>
 
 </div>
 </div>
-
-
-
 
 
 </body>
