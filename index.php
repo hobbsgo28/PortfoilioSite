@@ -24,7 +24,7 @@ include("header.php");
 
 </div>
 
-<div class="fixed-size">
+<div class="column-50">
     <img src="headshot2026.webp" alt="Picture">
 
 </div>
@@ -67,9 +67,9 @@ include("header.php");
 
 <div class="container-horz">
     <div class="column-40">
-        <h1>Visual Element</h1>
-
+        <img src="havingfunandsharing-book-19261_512.gif" alt="Visual Element">
     </div>
+
     <div class="column-60">
         <h1>Education</h1>
             <dl>
