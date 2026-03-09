@@ -13,7 +13,7 @@ include("header.php");
 <div class="column-50">
 
 <h1> Grace Hobbs </h1>
-    <p> As a computer science student, I have developed skills in Java, Python, and MIPS assembly language. 
+    <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As a computer science student, I have developed skills in Java, Python, and MIPS assembly language. 
     Currently, I am preparing for the A+ Core 1 and Core 2 certification, which is broadening my 
     understanding of computer hardware, operating systems, and IT support. My practical experience in 
     the VMI Cyber Defense Lab also provides me with valuable real-world expertise that I am eager to 
