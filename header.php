@@ -9,15 +9,15 @@
 <?php
   if ($currentPage == "index.php"){
   ?>
-  <a href="HobbsResume2026.pdf" > Resume </a>
-  <a href="resumeDisplay.php" > Resume Dsiplay</a>
+  <!-- <a href="HobbsResume2026.pdf" > Resume </a> -->
+  <a href="resumeDisplay.php" > Resume</a>
 
 <?php
   }
   if ($currentPage == "resumeDisplay.php"){
 ?>
 
-  <a href="HobbsResume2026.pdf" > Resume </a>
+  <!-- <a href="HobbsResume2026.pdf" > Resume </a> -->
   <a href="index.php" > Home </a>
 <?php
 }
