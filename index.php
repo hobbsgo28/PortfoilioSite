@@ -25,7 +25,7 @@ include("header.php");
 </div>
 
 <div class="column-50">
-    <img src="headshot2026.webp" alt="Picture">
+    <img src="images/headshot2026.webp" alt="Picture">
 
 </div>
 
@@ -33,7 +33,7 @@ include("header.php");
 
 <div class="container-horz">
     <div class="column-40">
-        <img src="placidplace-matrix-17974_512.gif" alt="Visual Element">
+        <img src="images/placidplace-matrix-17974_512.gif" alt="Visual Element">
     </div>
 
 <div class="column-60">
@@ -61,13 +61,13 @@ include("header.php");
             </dl>
     </div>
     <div class="column-40">
-        <img src="dakernet-target-6601_256.gif" alt="Visual Element">
+        <img src="images/dakernet-target-6601_256.gif" alt="Visual Element">
     </div>
 </div>
 
 <div class="container-horz">
     <div class="column-40">
-        <img src="havingfunandsharing-book-19261_512.gif" alt="Visual Element">
+        <img src="images/havingfunandsharing-book-19261_512.gif" alt="Visual Element">
     </div>
 
     <div class="column-60">

@@ -108,6 +108,8 @@ img {
     max-width: 100%;
     max-height: 100%;
     /* object-fit:scale-down; */
+    /* border: 1px solid #23314A; */
+    border-radius: 5px;
     display: flex;
     justify-self: center;
     align-self: center;
