@@ -13,7 +13,7 @@ include("header.php");
 <div class="column-50">
 
 <h1> Grace Hobbs </h1>
-    <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As a computer science student, I have developed skills in Java, Python, and MIPS assembly language. 
+    <p>As a computer science student, I have developed skills in Java, Python, and MIPS assembly language. 
     Currently, I am preparing for the A+ Core 1 and Core 2 certification, which is broadening my 
     understanding of computer hardware, operating systems, and IT support. My practical experience in 
     the VMI Cyber Defense Lab also provides me with valuable real-world expertise that I am eager to 
@@ -25,7 +25,7 @@ include("header.php");
 </div>
 
 <div class="column-50">
-    <img src="images/headshot2026.webp" alt="Picture">
+    <img class="headshot" src="images/headshot2026.webp" alt="Picture">
 
 </div>
 
@@ -33,7 +33,7 @@ include("header.php");
 
 <div class="container-horz">
     <div class="column-40">
-        <img src="images/placidplace-matrix-17974_512.gif" alt="Visual Element">
+        <img class="visual" src="images/placidplace-matrix-17974_512.gif" alt="Visual Element">
     </div>
 
 <div class="column-60">
@@ -61,13 +61,13 @@ include("header.php");
             </dl>
     </div>
     <div class="column-40">
-        <img src="images/dakernet-target-6601_256.gif" alt="Visual Element">
+        <img class="visual" src="images/dakernet-target-6601_256.gif" alt="Visual Element">
     </div>
 </div>
 
 <div class="container-horz">
     <div class="column-40">
-        <img src="images/havingfunandsharing-book-19261_512.gif" alt="Visual Element">
+        <img class="visual" src="images/havingfunandsharing-book-19261_512.gif" alt="Visual Element">
     </div>
 
     <div class="column-60">

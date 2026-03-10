@@ -1,13 +1,12 @@
 
 body {
-    background-image: url(https://th.bing.com/th/id/OIP.FXrRdNq_iqaavfjOj4SUGAHaHa?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3);
+    background-image: url("images/backgroundleaves.jpg");
     background-repeat: repeat;
     background-attachment: fixed;
     background-color: #ECE3DF;
     /* border: 5px double #23314A;
     border-radius: 5px; */
     flex: 1;
-    /* padding-bottom: 5%; */
     color: #0A3323;
     font-family: "Delius", "Arial" ;
     font-size:large;
@@ -21,11 +20,9 @@ body {
     background-color: #ECE3DF;
     border-radius: 5px;
     border: 1px solid #23314A;
-
     display: flex;
     flex-direction: row;
 }
-
 
 .container-horz{
     background-color: #ECE3DF;
@@ -35,7 +32,6 @@ body {
     display:flex;
     flex-direction: row;
 }
-
 
 .container{
     width: 100%;
@@ -62,22 +58,12 @@ body {
     box-sizing: border-box; 
     align-items: center;
     flex-direction: column;
-    /* flex-direction: row; */
-}
-
-
-.fixed-size {
-    width: 50%;   /* Fixed width */
-    /* height: 200px;  Fixed height */
-    object-fit:scale-down; /* Crop to fit without distortion */
-    /* border: 2px solid #333; */
 }
 
 .column-40{
     width: 40%;
     background-color: #ECE3DF;
     /* border: 1px solid #23314A; just for development visual */
-
     display: flex;
     justify-content: center;
     padding: 20px;
@@ -91,7 +77,6 @@ body {
     width: 60%;
     background-color: #ECE3DF;
     /* border: 1px solid #23314A; just for development visual */
-
     display: flex;
     justify-content: center;
     padding: 20px;
@@ -107,23 +92,30 @@ img {
     block-size: auto;
     max-width: 100%;
     max-height: 100%;
-    /* object-fit:scale-down; */
-    /* border: 1px solid #23314A; */
-    border-radius: 5px;
     display: flex;
     justify-self: center;
     align-self: center;
+}
+
+.headshot{
+    border-radius: 5px;
+    border: 1px solid #23314A;
 }
 
 dl{
     display: flex;
     align-items: center;
     flex-direction: column;
+    text-align: center;
 }
 
 iframe{
     border: 1px solid #23314A;
     border-radius: 5px;
+}
+
+p{
+    text-align: center;
 }
 
 .header {
@@ -136,16 +128,10 @@ iframe{
     border-radius: 5px;
     height: 10%;
     border: 1px solid #23314A;
-    /* display: flex; */
-    /* flex-direction: row; */
-    /* align-items: center; */
 }
 
 .header-right {
     float: right;
-    /* display: flex; */
-    /* align-items: center; */
-    
 }
 
 .header a {
@@ -160,9 +146,13 @@ iframe{
     background-color: #E5C2BD;
     margin-right:5px;
     border: 1px solid #23314A;
-
     color: #0A3323;
     font-family: "Delius Unicase", "Arial";
+}
+
+.header a:hover{
+    background-color: #e9b9b2;
+
 }
 
 footer {
@@ -176,7 +166,6 @@ footer {
     color: #0A3323;
     font-family: "Delius Unicase", "Arial";
     margin-top: auto;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -184,8 +173,34 @@ footer {
     border-radius: 5px;
 
 }
-/*
-.footer{
-    position: fixed;
-    bottom: 0;
-} */
+
+@media only screen and (max-width: 800px) {
+
+    .container-main{
+        flex-direction: column-reverse;
+        min-height: 85%;
+        height: auto;
+    }
+    .container-horz{
+        flex-direction: column;
+        min-height: auto;
+        height: auto;
+    }
+    .column-50{
+        width: 100%;
+    }
+    .column-40{
+        width: 100%;
+    }
+    .column-60{
+        width: 100%;
+    }
+    iframe{
+        width: 100%;
+    }
+    .visual{
+        display: none;
+    }
+
+
+}
