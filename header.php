@@ -2,23 +2,26 @@
 <?php 
   $currentPage = basename($_SERVER["PHP_SELF"]);
 ?>
-
-  <!-- <h1> Grace Hobbs </h1> -->
   <a class="button" href="index.php">Grace Hobbs</a>
   <div class="header-right">
 <?php
   if ($currentPage == "index.php"){
   ?>
-  <!-- <a href="HobbsResume2026.pdf" > Resume </a> -->
-  <a class="button" href="resumeDisplay.php" > Resume</a>
+  <!-- <object class="button"> Options </object> -->
+   <p>Options</p>
+    <object class="dropdown-content">
+  <a class="button"> Dummy</a>
+  <a class="button"> Dummy</a>
 
+  <a class="button" href="resumeDisplay.php" > Resume</a>
+</object>
 <?php
   }
   if ($currentPage == "resumeDisplay.php"){
 ?>
-
-  <!-- <a href="HobbsResume2026.pdf" > Resume </a> -->
+  <div class="dropdown-content"> 
   <a class="button" href="index.php" > Home </a>
+</div>
 <?php
 }
 ?>
