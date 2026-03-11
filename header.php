@@ -4,13 +4,13 @@
 ?>
 
   <!-- <h1> Grace Hobbs </h1> -->
-  <a href="index.php">Grace Hobbs</a>
+  <a class="button" href="index.php">Grace Hobbs</a>
   <div class="header-right">
 <?php
   if ($currentPage == "index.php"){
   ?>
   <!-- <a href="HobbsResume2026.pdf" > Resume </a> -->
-  <a href="resumeDisplay.php" > Resume</a>
+  <a class="button" href="resumeDisplay.php" > Resume</a>
 
 <?php
   }
@@ -18,7 +18,7 @@
 ?>
 
   <!-- <a href="HobbsResume2026.pdf" > Resume </a> -->
-  <a href="index.php" > Home </a>
+  <a class="button" href="index.php" > Home </a>
 <?php
 }
 ?>

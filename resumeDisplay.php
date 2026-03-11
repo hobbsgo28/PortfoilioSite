@@ -24,7 +24,7 @@
 
 <!-- <p>Open a PDF file <a href="C:\xampp\htdocs\ResumeHobbs\HobbsResume2026.pdf">example</a>.</p> -->
 
-<a href="HobbsResume2026.pdf" download="HobbsResume2026.pdf"> Download my Resume </a>
+<a class="button" href="HobbsResume2026.pdf" download="HobbsResume2026.pdf"> Download my Resume </a>
 </div>
 </body>
 
