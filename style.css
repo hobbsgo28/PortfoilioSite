@@ -46,6 +46,9 @@ body {
     align-items: center;
     flex-direction: column;
 }
+/* .container-row{
+    flex-direction: row;
+} */
 
 .column-50{
     width: 50%;
@@ -126,12 +129,10 @@ p{
 .header {
     position: sticky;
     top: 0;
-    overflow: hidden; 
     background-color: #a7ad89; 
     padding: 20px 10px; 
-    flex-wrap: wrap;
     border-radius: 5px;
-    height: 10%;
+    min-height: 10%;
     border: 1px solid #23314A;
     align-items: center;
     justify-content: center;
@@ -141,9 +142,9 @@ p{
     float: right;
 }
 
-/* .dropdown-content{
+label{
     display: none;
-} */
+}
 
 .button {
     float: left; 
@@ -159,7 +160,6 @@ p{
     border: 1px solid #23314A;
     color: #0A3323;
     font-family: "Delius Unicase", "Arial";
-
     position: relative;
     cursor: pointer;
     overflow: hidden;
@@ -207,7 +207,7 @@ footer {
 
 }
 
-@media only screen and (max-width: 1800px) {
+@media only screen and (max-width: 800px) {
 
     .container-main{
         flex-direction: column-reverse;
@@ -234,8 +234,27 @@ footer {
     .visual{
         display: none;
     }
+    .dropdown-content{
+        text-align: center; 
+        padding: 12px; 
+        text-decoration: none;
+        background-color: #DBD0C4;
+        font-size: 18px; 
+        line-height: 25px; 
+        border-radius: 5px; 
+        margin-right:5px;
 
-    /* .header-right{
+        border: 1px solid #23314A;
+        position: relative;
+        cursor: pointer;
+
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        flex-wrap: wrap;
+    }
+    
+    .header-right{
         float: left;
         border: 1px solid #23314A;
         border-radius: 5px;
@@ -273,6 +292,16 @@ footer {
         display: flex;
         align-items: center;
         flex-direction: column;
-    } */
+    }  
 
+    label{
+    color: #0A3323;
+    font-family: "Delius Unicase", "Arial" ;
+    font-size:large;
+    font-size: 18px;
+    line-height: 25px;  
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+}
 }

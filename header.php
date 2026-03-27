@@ -9,11 +9,11 @@
   ?>
   <!-- <object class="button"> Options </object> -->
    <p>Options</p>
-    <object class="dropdown-content">
-  <a class="button"> Dummy</a>
-  <a class="button"> Dummy</a>
-
-  <a class="button" href="resumeDisplay.php" > Resume</a>
+  <label for="dropdown-content"> Options</label>
+  <object class="dropdown-content">
+  <a class="button">Dummy</a>
+  <a class="button">Dummy</a>
+  <a class="button" href="resumeDisplay.php">Resume</a>
 </object>
 <?php
   }
