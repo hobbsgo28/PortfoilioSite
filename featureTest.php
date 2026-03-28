@@ -49,7 +49,8 @@ include("header.php");
     </div>
 </div>
 
-<div class="container-horz">
+<div class="accordion">
+<div class="panel">
     <div class="column-60">
         <h1>Professional Experience</h1>
             <dl>
@@ -62,6 +63,7 @@ include("header.php");
     <div class="column-40">
         <img class="visual" src="images/dakernet-target-6601_256.gif" alt="Visual Element">
     </div>
+</div>
 </div>
 
 <div class="container-horz">

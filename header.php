@@ -3,16 +3,16 @@
   $currentPage = basename($_SERVER["PHP_SELF"]);
 ?>
   <a class="button" href="index.php">Grace Hobbs</a>
+  <!-- <h3> Grace Hobbs </h3> -->
   <div class="header-right">
 <?php
   if ($currentPage == "index.php"){
   ?>
-  <!-- <object class="button"> Options </object> -->
-   <p>Options</p>
+  <p>Options</p>
   <label for="dropdown-content"> Options</label>
   <object class="dropdown-content">
   <a class="button">Dummy</a>
-  <a class="button">Dummy</a>
+  <a class="button" href="featureTest.php">Test</a>
   <a class="button" href="resumeDisplay.php">Resume</a>
 </object>
 <?php
