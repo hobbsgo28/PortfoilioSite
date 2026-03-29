@@ -48,9 +48,19 @@ include("header.php");
         </ul>
     </div>
 </div>
-
-<div class="accordion">
+  <!-- <label for="dropdown-content2"> Professional Experience</label> -->
+<button class="dropdown-content2" onclick="('content').style.display='block'">Professional Experience </button>
 <div class="panel">
+    <!-- <script> 
+        const acc = document.getElementsByClassName("accordion");
+        for (let i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        const panel = this.nextElementSibling;
+        panel.style.display = panel.style.display === "block" ? "none" : "block";
+        });
+        }
+    </script> -->
     <div class="column-60">
         <h1>Professional Experience</h1>
             <dl>
@@ -63,7 +73,6 @@ include("header.php");
     <div class="column-40">
         <img class="visual" src="images/dakernet-target-6601_256.gif" alt="Visual Element">
     </div>
-</div>
 </div>
 
 <div class="container-horz">
