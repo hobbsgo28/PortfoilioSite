@@ -30,6 +30,11 @@ include("header.php");
 
 </div>
 
+<div class="dropdown">
+
+<button onclick="toggleDropdown()" class="dropbtn">Skills</button>
+<div id="myDropdown" class="dropdown-content-main">
+
 <div class="container-horz">
     <div class="column-40">
         <img class="visual" src="images/placidplace-matrix-17974_512.gif" alt="Visual Element">
@@ -48,19 +53,33 @@ include("header.php");
         </ul>
     </div>
 </div>
-  <!-- <label for="dropdown-content2"> Professional Experience</label> -->
-<button class="dropdown-content2" onclick="('content').style.display='block'">Professional Experience </button>
-<div class="panel">
-    <!-- <script> 
-        const acc = document.getElementsByClassName("accordion");
-        for (let i = 0; i < acc.length; i++) {
-        acc[i].addEventListener("click", function() {
-        this.classList.toggle("active");
-        const panel = this.nextElementSibling;
-        panel.style.display = panel.style.display === "block" ? "none" : "block";
-        });
+
+</div>
+</div>
+<script>
+    // Toggle dropdown visibility
+    function toggleDropdown() {
+        document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    // Close dropdown if clicked outside
+    window.onclick = function(event) {
+        if (!event.target.matches('.dropbtn')) {
+            let dropdowns = document.getElementsByClassName("dropdown-content");
+            for (let i = 0; i < dropdowns.length; i++) {
+                let openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                }
+            }
         }
-    </script> -->
+    }
+</script>
+
+<button onclick="toggleDropdown()" class="dropbtn">Professional Experience</button>
+<div id="myDropdown2" class="dropdown-content-main">
+
+<div class="container-horz">
     <div class="column-60">
         <h1>Professional Experience</h1>
             <dl>
@@ -74,6 +93,32 @@ include("header.php");
         <img class="visual" src="images/dakernet-target-6601_256.gif" alt="Visual Element">
     </div>
 </div>
+</div>
+</div>
+</div>
+
+<script>
+    // Toggle dropdown visibility
+    function toggleDropdown() {
+        document.getElementById("myDropdown2").classList.toggle("show");
+    }
+
+    // Close dropdown if clicked outside
+    window.onclick = function(event) {
+        if (!event.target.matches('.dropbtn')) {
+            let dropdowns = document.getElementsByClassName("dropdown-content-main");
+            for (let i = 0; i < dropdowns.length; i++) {
+                let openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                }
+            }
+        }
+    }
+</script>
+
+<button onclick="toggleDropdown()" class="dropbtn">Education</button>
+<div id="myDropdown3" class="dropdown-content-main">
 
 <div class="container-horz">
     <div class="column-40">
@@ -95,9 +140,34 @@ include("header.php");
 
 </div>
 </div>
+</div>
+
+<script>
+    // Toggle dropdown visibility
+    function toggleDropdown() {
+        document.getElementById("myDropdown3").classList.toggle("show");
+    }
+
+    // Close dropdown if clicked outside
+    window.onclick = function(event) {
+        if (!event.target.matches('.dropbtn')) {
+            let dropdowns = document.getElementsByClassName("dropdown-content-main");
+            for (let i = 0; i < dropdowns.length; i++) {
+                let openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                }
+            }
+        }
+    }
+</script>
+</div>
+
 
 
 </body>
+
+
 
 <?php
 include("footer.php");
