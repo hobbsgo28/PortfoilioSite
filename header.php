@@ -13,7 +13,9 @@
   <object class="dropdown-content">
   <a class="button">Dummy</a>
   <a class="button" href="featureTest.php">Test</a>
+  <a class="button" href="https://www.linkedin.com/in/grace-hobbs-2a1329376"  target="_blank" rel="noopener noreferrer"> Linkedin </a>
   <a class="button" href="resumeDisplay.php">Resume</a>
+
 </object>
 <?php
   }
@@ -36,7 +38,6 @@
 <?php
   }
 ?>
-  <!-- <a href="www.linkedin.com/in/grace-hobbs-2a1329376" target="_blank" rel="noopener noreferrer"> Linkedin </a> -->
   <!-- <a href="HobbsResume2026.pdf" > Resume </a>
   <a href="resumeDisplay.php" > Resume Dsiplay</a> -->
 
