@@ -19,14 +19,14 @@
   }
   if ($currentPage == "resumeDisplay.php"){
 ?>
-  <div class="dropdown-content"> 
+  <label for="dropdown-content"> Options</label>
+  <object class="dropdown-content">
   <a class="button" href="index.php" > Home </a>
-</div>
+</object>
 <?php
 }
   if ($currentPage == "featureTest.php"){
   ?>
-  <p>Options</p>
   <label for="dropdown-content"> Options</label>
   <object class="dropdown-content">
   <a class="button">Dummy</a>
