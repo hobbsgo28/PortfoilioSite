@@ -9,25 +9,23 @@ include("header.php");
 ?>
 <div class="container-main">
 
-<div class="column-50">
+    <div class="column-50">
 
-<h1> Grace Hobbs </h1>
-    <p>As a computer science student, I have developed skills in Java, Python, and MIPS assembly language. 
-    Currently, I am preparing for the A+ Core 1 and Core 2 certification, which is broadening my 
-    understanding of computer hardware, operating systems, and IT support. My practical experience in 
-    the VMI Cyber Defense Lab also provides me with valuable real-world expertise that I am eager to 
-    contribute to the workforce. The software development team has allowed me to expand my understanding 
-    of software development and to learn additional programming languages including HTML, PHP, SQL, and CSS. 
-    Working in software development at the VMI Cyber Defense Lab exposes me to how software developers avoid 
-    vulnerabilities in a system's fundamental software.</p>
+        <h1> Grace Hobbs </h1>
+        <p>As a computer science student, I have developed skills in Java, Python, and MIPS assembly language. 
+        Currently, I am preparing for the A+ Core 1 and Core 2 certification, which is broadening my 
+        understanding of computer hardware, operating systems, and IT support. My practical experience in 
+        the VMI Cyber Defense Lab also provides me with valuable real-world expertise that I am eager to 
+        contribute to the workforce. The software development team has allowed me to expand my understanding 
+        of software development and to learn additional programming languages including HTML, PHP, SQL, and CSS. 
+        Working in software development at the VMI Cyber Defense Lab exposes me to how software developers avoid 
+        vulnerabilities in a system's fundamental software.</p>
 
-</div>
+    </div>
 
-<div class="column-50">
-    <img class="headshot" src="images/headshot2026.webp" alt="Picture">
-
-</div>
-
+    <div class="column-50">
+        <img class="headshot" src="images/headshot2026.webp" alt="Picture">
+    </div>
 </div>
 
 <div class="container-horz">
@@ -82,7 +80,7 @@ include("header.php");
                 <dd>Associate's of Science in General Studies<dd>
             </dl>
 
-</div>
+    </div>
 </div>
 
 

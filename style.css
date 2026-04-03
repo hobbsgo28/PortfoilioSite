@@ -45,6 +45,17 @@ body {
     flex-direction: column;
 }
 
+.view-container{
+    justify-self: center;
+    min-height: 85%;
+    width: 75%;
+    background-color: #ECE3DF;
+    border-radius: 5px;
+    border: 1px solid #23314A;
+    display: flex;
+    flex-direction: column;  
+}
+
 .column-50{
     width: 50%;
     background-color: #ECE3DF;
