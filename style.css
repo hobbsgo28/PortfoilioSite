@@ -4,19 +4,17 @@ body {
     background-repeat: repeat;
     background-attachment: fixed;
     background-color: #ECE3DF;
-    /* border: 5px double #23314A;
-    border-radius: 5px; */
     flex: 1;
     color: #0A3323;
     font-family: "Delius", "Arial" ;
-    font-size:large;
+    font-size: large;
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
 
 .container-main{
-    height: 85%;
+    min-height: 85%;
     background-color: #ECE3DF;
     border-radius: 5px;
     border: 1px solid #23314A;
@@ -28,7 +26,7 @@ body {
     background-color: #ECE3DF;
     border-radius: 5px;
     border: 1px solid #23314A;
-    height: 85%;
+    min-height: 85%;
     display:flex;
     flex-direction: row;
 }
@@ -46,14 +44,10 @@ body {
     align-items: center;
     flex-direction: column;
 }
-/* .container-row{
-    flex-direction: row;
-} */
 
 .column-50{
     width: 50%;
     background-color: #ECE3DF;
-    /* border: 1px solid #23314A; just for development visual */
     display: flex;
     justify-content: center;
     padding: 20px;
@@ -66,7 +60,6 @@ body {
 .column-40{
     width: 40%;
     background-color: #ECE3DF;
-    /* border: 1px solid #23314A; just for development visual */
     display: flex;
     justify-content: center;
     padding: 20px;
@@ -79,7 +72,6 @@ body {
 .column-60{
     width: 60%;
     background-color: #ECE3DF;
-    /* border: 1px solid #23314A; just for development visual */
     display: flex;
     justify-content: center;
     padding: 20px;
@@ -135,7 +127,6 @@ p{
     border-radius: 5px;
     min-height: 10%;
     border: 1px solid #23314A;
-    /* flex-direction: row; */
     align-items: center;
     justify-content: center;
 }
@@ -233,7 +224,6 @@ footer {
     background-color: #9ba17b;
 }
 
-/* Dropdown content (hidden by default) */
 .dropdown-content-main {
     display: none;
     position: absolute;
@@ -244,22 +234,9 @@ footer {
     z-index: 1;
 }
 
-
-/* Links inside dropdown */
-/* .dropdown-content-main a {
-    color: black;
-    padding: 10px 14px;
-    text-decoration: none;
-    display: block;
-}
-
-.dropdown-content-main a:hover {
-    background-color: #f1f1f1;
-} */
 .show {
     display: block;
 }
-
 
 
 @media only screen and (max-width: 800px) {
