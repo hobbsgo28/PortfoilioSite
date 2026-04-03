@@ -7,7 +7,7 @@ body {
     flex: 1;
     color: #0A3323;
     font-family: "Delius", "Arial" ;
-    font-size: large;
+    font-size: 20px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -187,13 +187,30 @@ footer {
     height: 10%;
     color: #0A3323;
     font-family: "Delius Unicase", "Arial";
+    font-size: 15px;
     margin-top: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     border: 1px solid #23314A;
     border-radius: 5px;
+    /* white-space: pre; */
+}
+/* 
+.footer-left{
+    float: left;
+} */
 
+.footer-right{
+    float: right;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+pre{
+    color: #0A3323;
+    font-family: "Delius Unicase", "Arial";
+    font-size: 15px; 
 }
 
 .dropdown {
@@ -287,6 +304,10 @@ footer {
     
     }
     
+    /* .header{
+        position: relative;
+    } */
+
     .header-right{
         float: left;
         border: 1px solid #23314A;

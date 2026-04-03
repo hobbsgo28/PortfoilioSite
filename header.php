@@ -8,7 +8,6 @@
 <?php
   if ($currentPage == "index.php"){
   ?>
-  <p>Options</p>
   <label for="dropdown-content"> Options</label>
   <object class="dropdown-content">
   <a class="button">Dummy</a>
@@ -23,6 +22,7 @@
 ?>
   <label for="dropdown-content"> Options</label>
   <object class="dropdown-content">
+  <a class="button" href="https://www.linkedin.com/in/grace-hobbs-2a1329376"  target="_blank" rel="noopener noreferrer"> Linkedin </a>
   <a class="button" href="index.php" > Home </a>
 </object>
 <?php
