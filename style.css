@@ -14,6 +14,7 @@ body {
 }
 
 .container-main{
+    /* opacity: 0; */
     min-height: 85%;
     background-color: #ECE3DF;
     border-radius: 5px;
@@ -47,13 +48,16 @@ body {
 
 .view-container{
     justify-self: center;
-    min-height: 85%;
-    width: 75%;
+    align-self: center;
+    height: 650px;
+    width: 600px;
     background-color: #ECE3DF;
-    border-radius: 5px;
-    border: 1px solid #23314A;
+    /* border-radius: 5px; */
+    /* border: 1px solid #23314A; */
     display: flex;
-    flex-direction: column;  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .column-50{
@@ -91,6 +95,10 @@ body {
     align-items: center;
     flex-direction: column;
 
+}
+
+input[type="range"] {
+    width: 500px; /* Fixed width in pixels */
 }
 
 img {
