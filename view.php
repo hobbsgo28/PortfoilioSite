@@ -10,11 +10,16 @@
 include("header.php");
 ?>
 
-<div class="container-main"> 
-        <h1>Fractal Tree</h1>
-    <div class="view-container" id="tree-container">
+<div class="view-container" id="tree-container">
+    <h1>Fractal Tree</h1>
+</div>
+<div class="slider-container" id="tree-slider1">
+    <h3>Angle</h3>
+</div>
+<div class="slider-container" id="tree-slider2">
+    <h3>Branch Length</h3>
+</div>
 
-    </div>
 </div>
 </body>
 <?php
