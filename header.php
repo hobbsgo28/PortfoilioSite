@@ -44,6 +44,11 @@
 ?>
     <label for="dropdown-content"> Options</label>
       <object class="dropdown-content">
+        <label for="dropdown-content-always">View</label>
+        <object class="dropdown-content-always">
+          <a class="button" href="fractalTree.php"> Fractal Tree</a>
+          <a class="button" href="drawBox.php"> Draw Box</a>
+        </object>
         <a class="button" href="featureTest.php">Test</a>
         <a class="button" href="https://www.linkedin.com/in/grace-hobbs-2a1329376"  target="_blank" rel="noopener noreferrer"> Linkedin </a>
         <a class="button" href="resumeDisplay.php">Resume</a>

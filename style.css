@@ -256,28 +256,6 @@ pre{
     flex-direction: row;
 }
 
-.dropbtn {
-    background-color: #a7ad89;
-    color: white;
-    padding: 10px 16px;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 4px;
-    position: relative;
-    color: #0A3323;
-    font-family: "Delius Unicase", "Arial";
-    font-size: 18px; 
-    border: 1px solid #23314A;
-    border-radius: 5px;
-    overflow: hide;
-    width: 33%;
-
-}    
-
-.dropbtn:hover {
-    background-color: #9ba17b;
-}
-
 .dropdown-content-main {
     display: none;
     position: absolute;
@@ -291,6 +269,38 @@ pre{
 .show {
     display: block;
 }
+.dropbtn{
+    display: none;
+}
+
+.dropdown-content-always{
+    text-align: center; 
+    padding: 12px; 
+    text-decoration: none;
+    background-color: #DBD0C4;
+    font-size: 18px; 
+    line-height: 25px; 
+    border-radius: 5px; 
+    margin-right:5px;
+    border: 1px solid #23314A;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+.dropbutton:hover{
+    display: show;
+}
+
+.header-right:hover .dropdown-content-always {
+    display: block;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}  
 
 
 @media only screen and (max-width: 800px) {
@@ -329,21 +339,14 @@ pre{
         line-height: 25px; 
         border-radius: 5px; 
         margin-right:5px;
-
         border: 1px solid #23314A;
         position: relative;
         cursor: pointer;
-
         display: flex;
         flex-direction: column;
         gap: 5px;
         flex-wrap: wrap;
-    
     }
-    
-    /* .header{
-        position: relative;
-    } */
 
     .header-right{
         float: left;
@@ -386,13 +389,13 @@ pre{
     }  
 
     label{
-    color: #0A3323;
-    font-family: "Delius Unicase", "Arial" ;
-    font-size:large;
-    font-size: 18px;
-    line-height: 25px;  
-    display: flex;
-    justify-content: center;
-    flex-direction: column; 
+        color: #0A3323;
+        font-family: "Delius Unicase", "Arial" ;
+        font-size:large;
+        font-size: 18px;
+        line-height: 25px;  
+        display: flex;
+        justify-content: center;
+        flex-direction: column; 
 }
 }
