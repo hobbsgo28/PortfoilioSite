@@ -302,6 +302,40 @@ pre{
     flex-direction: column;
 }  
 
+.tool-container{
+    height: 100%;
+}
+
+#toolbar{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    width: 70px;
+}
+
+#toolbar *{
+    margin: 6px;
+}
+
+#toolbar label{
+    font-size: 12px;
+}
+
+#toolbar input{
+    width: 100%;
+}
+
+canvas{
+    border: 1px, solid, black;
+    display: block;
+}
+
+.drawing-board{
+    border: #0A3323;
+    border-width: 2px;
+
+}
+
 
 @media only screen and (max-width: 800px) {
 
