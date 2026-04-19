@@ -13,10 +13,10 @@ include("header.php");
 <div class="view-container" id="tree-container">
     <h1>Fractal Tree</h1>
 </div>
-<div class="slider-container" id="tree-slider1">
+<div class="input-container" id="tree-slider1">
     <h3>Angle</h3>
 </div>
-<div class="slider-container" id="tree-slider2">
+<div class="input-container" id="tree-slider2">
     <h3>Branch Length</h3>
 </div>
 
