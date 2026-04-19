@@ -326,7 +326,7 @@ pre{
 }
 
 canvas{
-    border: 1px, solid, black;
+    border: 1px, solid, rgb(13, 13, 13);
     display: block;
 }
 
@@ -334,6 +334,20 @@ canvas{
     border: #0A3323;
     border-width: 2px;
 
+}
+
+.container-tool{
+    /* width: 100%; */
+    background-color: #ECE3DF;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #23314A;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box; 
+    align-items: center;
+    flex-direction: column;
 }
 
 
