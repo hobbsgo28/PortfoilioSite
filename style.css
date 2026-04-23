@@ -198,10 +198,10 @@ label{
     font-size: 18px; 
     line-height: 25px; 
     border-radius: 5px; 
-    background-color: #E5C2BD;
+    background-color: #e5c2bd;
     margin-right:5px;
-    border: 1px solid #23314A;
-    color: #0A3323;
+    border: 1px solid #23314a;
+    color: #0a3323;
     font-family: "Delius Unicase", "Arial";
     position: relative;
     cursor: pointer;
@@ -211,7 +211,7 @@ label{
         0 4px 6px -1px rgb(0 0 0 / 0.1),
         0 2px 4px -2px rgb(0 0 0 / 0.1);
     transition: all 150ms cubic-bezier(0.4, 0, 0.2, 1);
-    background: linear-gradient(to bottom, #efe5e4, #E5C2BD);
+    background: linear-gradient(to bottom, #efe5e4, #e5c2bd);
 }
 
 .button:hover{
@@ -222,7 +222,7 @@ label{
 
 .button:active{
     transition: all 150ms cubic-bezier(0.4, 0, 0.2, 1);
-    background: linear-gradient(to bottom, #E5C2BD, #efe5e4); /* makes button look pressed in  */
+    background: linear-gradient(to bottom, #e5c2bd, #efe5e4); /* makes button look pressed in  */
     transform: translateY(0); /*makes button jump */
 }
 
@@ -233,14 +233,14 @@ footer {
     left: 0;
     bottom: 0;
     height: 10%;
-    color: #0A3323;
+    color: #0a3323;
     font-family: "Delius Unicase", "Arial";
     font-size: 15px;
     margin-top: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid #23314A;
+    border: 1px solid #23314a;
     border-radius: 5px;
     /* white-space: pre; */
 }
@@ -256,7 +256,7 @@ footer {
 }
 
 pre{
-    color: #0A3323;
+    color: #0a3323;
     font-family: "Delius Unicase", "Arial";
     font-size: 15px; 
 }
@@ -288,12 +288,12 @@ pre{
     text-align: center; 
     padding: 12px; 
     text-decoration: none;
-    background-color: #DBD0C4;
+    background-color: #dbd0c4;
     font-size: 18px; 
     line-height: 25px; 
     border-radius: 5px; 
     margin-right:5px;
-    border: 1px solid #23314A;
+    border: 1px solid #23314a;
     position: relative;
     cursor: pointer;
     display: flex;
@@ -321,22 +321,19 @@ pre{
     display: show;
 }
 
-.tool-container{
-    height: 100%;
-}
-
-#toolbar{
+.toolbar{
+    /* float: left; */
     display: flex;
     flex-direction: column;
     padding: 5px;
     width: 70px;
 }
 
-#toolbar *{
+/* .toolbar *{
     margin: 6px;
-}
+} */
 
-#toolbar label{
+.toolbar label{
     font-size: 12px;
 }
 
@@ -357,17 +354,19 @@ canvas{
 }
 
 .container-tool{
+    float: left;
+    /* height: 80%; */
     /* width: 100%; */
     background-color: #ECE3DF;
     padding: 20px;
     border-radius: 5px;
     border: 1px solid #23314A;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     padding: 20px;
     box-sizing: border-box; 
-    align-items: center;
-    flex-direction: column;
+    /* align-items: center; */
+    flex-direction: row;
 }
 
 

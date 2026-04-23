@@ -7,7 +7,22 @@
 include("header.php");
 ?>
 
+
+
+<!-- 
+<div class="view-container" id="draw-container">
+    <h1>Draw Box</h1>
+</div>
+<div class="input-container" id="lineWidth">
+    <h3>Line Width</h3>
+</div> -->
+
+
+<!-- <div class="draw"> -->
 <section class="container-tool"> 
+
+
+
     <div id="toolbar"> 
         <h1> Draw </h1>
         <label for="stroke">Stroke</label>
@@ -16,10 +31,12 @@ include("header.php");
         <input id="lineWidth" name='lineWidth' type="number" value="5" />
         <button id="clear">Clear</button>
     </div>
+
     <div class="drawing-board">
         <canvas id="drawing-board"></canvas>
     </div>
 </section>
+<!-- </div> -->
 <script src="drawBox.js"></script>
 
 </body>

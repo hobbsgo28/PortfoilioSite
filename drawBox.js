@@ -1,6 +1,7 @@
 const canvas = document.getElementById('drawing-board');
 const toolbar = document.getElementById('toolbar');
 const ctx = canvas.getContext('2d');
+var slider;
 
 const canvasOffsetX = canvas.offsetLeft;
 const canvasOffsetY = canvas.offsetTop;
@@ -14,6 +15,16 @@ ctx.strokeStyle = '#000000';
 
 let startX;
 let startY; 
+
+function setup(){
+    let canvas = createCanvas(600, 500);
+    canvas.parent("draw-container");
+    slider = createSlider(1, 50, 5, 2);
+    slider.parent("lineWidth");
+    slider2 = createSlider(10, 150, 75, 5);
+    slider2.parent("tree-slider2");
+}
+
 
 const draw = (e) => {
     if(!isPainting){
