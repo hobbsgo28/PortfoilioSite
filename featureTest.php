@@ -4,9 +4,7 @@
 </head>
 <body>
 
-<?php
-include("header.php");
-?>
+<?php include("header.php"); ?>
 <div class="container-main">
 
 <div class="column-50">
@@ -169,9 +167,7 @@ include("header.php");
 
 
 
-<?php
-include("footer.php");
-?>
+<?php include("footer.php"); ?>
 
 
 

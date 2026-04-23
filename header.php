@@ -7,7 +7,7 @@
 <?php
     if ($currentPage == "index.php"){
 ?>
-    <label for="dropdown-content"> Options</label>
+    <label for="dropdown-content">Options</label>
       <object class="dropdown-content">
         <a class="button" href="view.php">View</a>
         <a class="button" href="featureTest.php">Test</a>
@@ -19,30 +19,30 @@
 
     if ($currentPage == "resumeDisplay.php"){
 ?>
-    <label for="dropdown-content"> Options</label>
+    <label for="dropdown-content">Options</label>
       <object class="dropdown-content">
         <a class="button" href="view.php">View</a>
         <a class="button" href="featureTest.php">Test</a>
         <a class="button" href="https://www.linkedin.com/in/grace-hobbs-2a1329376"  target="_blank" rel="noopener noreferrer"> Linkedin </a>
-        <a class="button" href="index.php" > Home </a>
+        <a class="button" href="index.php">Home</a>
       </object>
 <?php
   }
     if ($currentPage == "featureTest.php"){
   ?>
-    <label for="dropdown-content"> Options</label>
+    <label for="dropdown-content">Options</label>
       <object class="dropdown-content">
         <a class="button" href="view.php">View</a>
         <a class="button" href="https://www.linkedin.com/in/grace-hobbs-2a1329376"  target="_blank" rel="noopener noreferrer"> Linkedin </a>
         <a class="button" href="resumeDisplay.php">Resume</a>
-        <a class="button" href="index.php" > Home </a>
+        <a class="button" href="index.php">Home</a>
     </object>
 <?php
     }
 
     if ($currentPage == "view.php"){
 ?>
-    <label for="dropdown-content"> Options</label>
+    <label for="dropdown-content"> ptions</label>
       <object class="dropdown-content">
         <!-- <label for="dropdown-content-always">View</label>
         <object class="dropdown-content-always">
@@ -52,20 +52,20 @@
         <a class="button" href="featureTest.php">Test</a>
         <a class="button" href="https://www.linkedin.com/in/grace-hobbs-2a1329376"  target="_blank" rel="noopener noreferrer"> Linkedin </a>
         <a class="button" href="resumeDisplay.php">Resume</a>
-        <a class="button" href="index.php" > Home </a>
+        <a class="button" href="index.php">Home</a>
     </object>
 <?php 
     }
 
       if ($currentPage == "fractalTree.php" || $currentPage == "drawBox.php" ){
 ?>
-    <label for="dropdown-content"> Options</label>
+    <label for="dropdown-content">Options</label>
       <object class="dropdown-content">
         <a class="button" href="view.php">View</a>
         <a class="button" href="featureTest.php">Test</a>
         <a class="button" href="https://www.linkedin.com/in/grace-hobbs-2a1329376"  target="_blank" rel="noopener noreferrer"> Linkedin </a>
         <a class="button" href="resumeDisplay.php">Resume</a>
-        <a class="button" href="index.php" > Home </a>
+        <a class="button" href="index.php">Home</a>
 
     </object>
 
