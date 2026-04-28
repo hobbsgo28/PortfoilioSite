@@ -1,13 +1,11 @@
 
 body {
-  background-image: url("images/backgroundleaves.jpg");
-  background-repeat: repeat;
-  background-attachment: fixed;
-  background-color: #ece3df;
+  /* color image repeat position */
+  background: #ece3df url("images/backgroundleaves.jpg") repeat fixed;
   color: #0a3323;
   display: flex;
-  font-family: "Delius", "Arial" ;
-  font-size: 20px;
+  /* style weight size/height family */
+  font: 20px  "Delius", "Arial";
   flex-direction: column;
   justify-content: center;
 }
@@ -16,6 +14,7 @@ body {
   align-items: center;
   background-color: #ece3df;
   border-radius: 5px;
+  /* width style color */
   border: 1px solid #23314a;
   display: flex;
   justify-content: center;
@@ -183,10 +182,8 @@ iframe{
     0 2px 4px -2px rgb(0 0 0 / 0.1);
   color: #0a3323;
   cursor: pointer;
-  font-size: 18px; 
   float: left; 
-  font-family: "Delius Unicase", "Arial";
-  line-height: 25px; 
+  font: 18px/25px "Delius Unicase", "Arial";
   margin-right:5px;
   overflow: hidden;
   position: relative;
@@ -197,6 +194,7 @@ iframe{
 }
 
 .button:hover{
+  /* horz vert shadow spread color inset */
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
   transform: translateY(-2px); /*makes button jump */
 }
@@ -216,8 +214,7 @@ footer {
   bottom: 0;
   color: #0a3323;
   display: flex;
-  font-family: "Delius Unicase", "Arial";
-  font-size: 15px;
+  font: 15px "Delius Unicase", "Arial";
   height: 10%;
   justify-content: center;
   left: 0;
@@ -239,11 +236,10 @@ footer {
 
 pre{ /*used to keep the whitespace in the footer text */
   color: #0a3323;
-  font-family: "Delius Unicase", "Arial";
-  font-size: 15px; 
+  font: 15px "Delius Unicase", "Arial";
 }
 
-/*sets up for when the screen is lower and these will act different */
+/*sets up for when the screen is smaller and these will act different */
 
 .dropdown {
   display: flex;
@@ -264,21 +260,21 @@ pre{ /*used to keep the whitespace in the footer text */
 .show {
   display: block;
 }
+
 .dropbtn{
   display: none;
 }
 
 .dropdown-content-always{
-  border: 1px solid #23314a;
   background-color: #dbd0c4;
+  border: 1px solid #23314a;
   border-radius: 5px; 
   cursor: pointer;
   display: flex;
   flex-direction: column;
-  font-size: 18px; 
+  font: 18px/25px; 
   flex-wrap: wrap;
   gap: 5px;
-  line-height: 25px; 
   margin-right:5px;
   position: relative;
   padding: 12px; 
@@ -416,9 +412,8 @@ canvas{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    font-size: 18px; 
+    font: 18px/25px; 
     gap: 5px;
-    line-height: 25px; 
     margin-right:5px;
     padding: 12px; 
     position: relative;
@@ -467,12 +462,9 @@ canvas{
   label{
     color: #0a3323;
     display: flex;
-    font-family: "Delius Unicase", "Arial" ;
-    font-size:large;
-    font-size: 18px;
+    font: 18px/25px "Delius Unicase", "Arial" ;
     flex-direction: column; 
     justify-content: center;
-    line-height: 25px;  
   }
 
 }
