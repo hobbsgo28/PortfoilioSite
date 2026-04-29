@@ -15,15 +15,16 @@
 
 
 <!-- <div class="draw"> -->
-<section class="container-tool">
-
-  <div id="toolbar">
-    <h1> Draw </h1>
-    <label for="stroke">Stroke</label>
-    <input id="stroke" name='stroke' type="color" value="rgb(13, 13, 13)" />
-    <label for="lineWidth">Line Width</label>
-    <input id="lineWidth" name='lineWidth' type="number" value="5" />
-    <button id="clear">Clear</button>
+<section class="container-drawBox">
+  <div class="container-tool">
+    <div class="toolbar" id="toolbar">
+      <h1> Draw </h1>
+      <label for="stroke">Stroke Color</label>
+      <input id="stroke" name='stroke' type="color" value="rgb(13, 13, 13)" />
+      <label for="lineWidth">Line Width</label>
+      <input id="lineWidth" name='lineWidth' type="number" value="5" />
+      <button id="clear">Clear</button>
+    </div>
   </div>
 
   <div class="drawing-board">

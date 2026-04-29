@@ -293,10 +293,9 @@ pre{ /*used to keep the whitespace in the footer text */
   flex-direction: column;
 }  
 
-label{
-  display: none;
+.hide{
+  display: none
 }
-/* */
 
 .dropbtn-always{
   display:none;
@@ -323,28 +322,31 @@ input[type="range"] {
 
 .toolbar{
   /* float: left; */
-  display: flex;
-  flex-direction: column;
+  /* box-sizing: border-box;  */
+  /* display: flex;
+  flex-direction: column; */
   padding: 5px;
-  width: 70px;
+  margin: 6px;
+  width: 100px;
 }
 
-/* .toolbar *{
-  margin: 6px;
-} */
 
 .toolbar label{
-  font-size: 12px;
+  font-size: 22px;
+  /* flex-direction: column; */
 }
 
 .toolbar input{
+  /* flex-direction: column; */
   width: 100%;
 }
 
 canvas{
   border: 1px, solid, rgb(13, 13, 13);
   border-radius: 5px;
-  display: block;
+  /* box-sizing: border-box; */
+  /* display: flex; */
+  width: 100%;
 }
 
 .drawing-board{
@@ -353,6 +355,16 @@ canvas{
 }
 
 .container-tool{
+  background-color: #a7ad89;
+  border-radius: 5px;
+  border: 1px solid #23314a;
+  display: block;
+  margin-right: 3px;
+  /* flex-direction: column; */
+
+}
+
+.container-drawBox{
   background-color: #ece3df;
   box-sizing: border-box; 
   border-radius: 5px;

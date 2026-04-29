@@ -7,7 +7,7 @@
 <?php
     if ($currentPage == "index.php"){
 ?>
-    <label for="dropdown-content">Options</label>
+    <label class="hide" for="dropdown-content">Options</label>
       <object class="dropdown-content">
         <a class="button" href="view.php">View</a>
         <a class="button" href="featureTest.php">Test</a>
@@ -19,7 +19,7 @@
 
     if ($currentPage == "resumeDisplay.php"){
 ?>
-    <label for="dropdown-content">Options</label>
+    <label class="hide" for="dropdown-content">Options</label>
       <object class="dropdown-content">
         <a class="button" href="view.php">View</a>
         <a class="button" href="featureTest.php">Test</a>
@@ -30,7 +30,7 @@
   }
     if ($currentPage == "featureTest.php"){
   ?>
-    <label for="dropdown-content">Options</label>
+    <label class="hide" for="dropdown-content">Options</label>
       <object class="dropdown-content">
         <a class="button" href="view.php">View</a>
         <a class="button" href="https://www.linkedin.com/in/grace-hobbs-2a1329376"  target="_blank" rel="noopener noreferrer"> Linkedin </a>
@@ -42,7 +42,7 @@
 
     if ($currentPage == "view.php"){
 ?>
-    <label for="dropdown-content"> ptions</label>
+    <label class="hide" for="dropdown-content"> Options</label>
       <object class="dropdown-content">
         <!-- <label for="dropdown-content-always">View</label>
         <object class="dropdown-content-always">
@@ -59,7 +59,7 @@
 
       if ($currentPage == "fractalTree.php" || $currentPage == "drawBox.php" ){
 ?>
-    <label for="dropdown-content">Options</label>
+    <label class="hide" for="dropdown-content">Options</label>
       <object class="dropdown-content">
         <a class="button" href="view.php">View</a>
         <a class="button" href="featureTest.php">Test</a>
