@@ -11,9 +11,9 @@
 
     <h1> Grace Hobbs </h1>
     <p>As a computer science student, I have developed skills in Java, Python, and MIPS assembly language. 
-    Currently, I am preparing for the A+ Core 1 and Core 2 certification, which is broadening my 
+    I recently earned the A+ Core 1 and Core 2 certification, which broadened my 
     understanding of computer hardware, operating systems, and IT support. My practical experience in 
-    the VMI Cyber Defense Lab also provides me with valuable real-world expertise that I am eager to 
+    the VMI Cyber Defense Lab also provides me with valuable real-world experience that I am eager to 
     contribute to the workforce. The software development team has allowed me to expand my understanding 
     of software development and to learn additional programming languages including HTML, PHP, SQL, and CSS. 
     Working in software development at the VMI Cyber Defense Lab exposes me to how software developers avoid 
@@ -51,6 +51,11 @@
       <dl>
         <dt><h3>DoD SMC Cyber Institute at Virginia Military Institute, Lexington, Virginia</h3></dt>
         <dd>October 2025 - Present</dd>
+        <dd>Software Development Team<dd>
+      </dl>
+      <dl>
+        <dt><h3>US Cyber Command Persistent Cyber Training Enviroment - Operations Goup, Annapolis Junction, Maryland </h3></dt>
+        <dd>June 2026 - August 2026</dd>
         <dd>Software Development Team<dd>
       </dl>
   </div>

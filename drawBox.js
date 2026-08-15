@@ -1,4 +1,6 @@
 const canvas = document.getElementById('drawing-board');
+// const rect = canvas.getBoundingClientRect(); 
+
 const toolbar = document.getElementById('toolbar');
 const ctx = canvas.getContext('2d');
 var slider;
@@ -16,9 +18,11 @@ ctx.strokeStyle = '#000000';
 let startX;
 let startY;
 
+
+
 function setup(){
-  let canvas = createCanvas(600, 500);
-  canvas.parent("draw-container");
+  let canvas = createCanvas();
+  canvas.parent("drawing-board");
   slider = createSlider(1, 50, 5, 2);
   slider.parent("lineWidth");
   slider2 = createSlider(10, 150, 75, 5);
@@ -33,10 +37,16 @@ const draw = (e) => {
   ctx.lineCap = 'round';
     // ctx.lineTo(e.clientX - canvasOffsetX, e.clientY - canvasOffsetY);
   const rect = canvas.getBoundingClientRect();
-  const x = e.clientX - rect.left;
-  const y = e.clientY - rect.top;
+  const mouseX = e.clientX - rect.left;
+  const mouseY = e.clientY - rect.top;
 
-  ctx.lineTo(x, y);
+  // const scaleX = canvas.width / rect.width;
+  // const scaleY = canvas.height / rect.height;
+
+  // const canvasX = mouseX * scaleX;
+  // const canvasY = mouseY * scaleY;
+
+  ctx.lineTo(mouseX, mouseY);
   ctx.stroke();
 }
 

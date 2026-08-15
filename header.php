@@ -9,8 +9,8 @@
 ?>
     <label class="hide" for="dropdown-content">Options</label>
       <object class="dropdown-content">
-        <a class="button" href="view.php">View</a>
-        <a class="button" href="featureTest.php">Test</a>
+        <a class="button" href="view.php">Projects</a>
+        <!-- <a class="button" href="featureTest.php">Test</a> -->
         <a class="button" href="https://www.linkedin.com/in/grace-hobbs-2a1329376"  target="_blank" rel="noopener noreferrer"> Linkedin </a>
         <a class="button" href="resumeDisplay.php">Resume</a>
     </object>
@@ -21,8 +21,8 @@
 ?>
     <label class="hide" for="dropdown-content">Options</label>
       <object class="dropdown-content">
-        <a class="button" href="view.php">View</a>
-        <a class="button" href="featureTest.php">Test</a>
+        <a class="button" href="view.php">Projects</a>
+        <!-- <a class="button" href="featureTest.php">Test</a> -->
         <a class="button" href="https://www.linkedin.com/in/grace-hobbs-2a1329376"  target="_blank" rel="noopener noreferrer"> Linkedin </a>
         <a class="button" href="index.php">Home</a>
       </object>
@@ -32,7 +32,7 @@
   ?>
     <label class="hide" for="dropdown-content">Options</label>
       <object class="dropdown-content">
-        <a class="button" href="view.php">View</a>
+        <a class="button" href="view.php">Projects</a>
         <a class="button" href="https://www.linkedin.com/in/grace-hobbs-2a1329376"  target="_blank" rel="noopener noreferrer"> Linkedin </a>
         <a class="button" href="resumeDisplay.php">Resume</a>
         <a class="button" href="index.php">Home</a>
@@ -49,7 +49,7 @@
           <a class="button" href="fractalTree.php"> Fractal Tree</a>
           <a class="button" href="drawBox.php"> Draw Box</a>
         </object> -->
-        <a class="button" href="featureTest.php">Test</a>
+        <!-- <a class="button" href="featureTest.php">Test</a> -->
         <a class="button" href="https://www.linkedin.com/in/grace-hobbs-2a1329376"  target="_blank" rel="noopener noreferrer"> Linkedin </a>
         <a class="button" href="resumeDisplay.php">Resume</a>
         <a class="button" href="index.php">Home</a>
@@ -61,8 +61,8 @@
 ?>
     <label class="hide" for="dropdown-content">Options</label>
       <object class="dropdown-content">
-        <a class="button" href="view.php">View</a>
-        <a class="button" href="featureTest.php">Test</a>
+        <a class="button" href="view.php">Projects</a>
+        <!-- <a class="button" href="featureTest.php">Test</a> -->
         <a class="button" href="https://www.linkedin.com/in/grace-hobbs-2a1329376"  target="_blank" rel="noopener noreferrer"> Linkedin </a>
         <a class="button" href="resumeDisplay.php">Resume</a>
         <a class="button" href="index.php">Home</a>
