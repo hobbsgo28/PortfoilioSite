@@ -56,7 +56,7 @@
       <dl>
         <dt><h3>US Cyber Command Persistent Cyber Training Enviroment - Operations Goup, Annapolis Junction, Maryland </h3></dt>
         <dd>June 2026 - August 2026</dd>
-        <dd>Software Development Team<dd>
+        <dd>Intern<dd>
       </dl>
   </div>
   <div class="column-40">

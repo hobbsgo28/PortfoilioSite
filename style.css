@@ -233,11 +233,7 @@ footer {
   float: right;
   /* justify-content: center; */
 }
-
-pre{ /*used to keep the whitespace in the footer text */
-  color: #0a3323;
-  font: 15px "Delius Unicase", "Arial";
-}
+cc
 
 /*sets up for when the screen is smaller and these will act different */
 
